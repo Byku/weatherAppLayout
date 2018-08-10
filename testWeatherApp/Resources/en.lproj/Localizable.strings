@@ -1,0 +1,55 @@
+/*
+  Localizable.strings
+  LayoutTraining
+*/
+
+"n.a" = "--";
+"Novosibirsk" = "Novosibirsk";
+"WeatherSummary" = "Now: Wonderful weather!";
+"Today" = "Today";
+
+"Mon" = "Monday";
+"Tue" = "Tuesday";
+"Wed" = "Wednesday";
+"Thu" = "Thursday";
+"Fri" = "Friday";
+"Sat" = "Saturday";
+"Sun" = "Sunday";
+
+// WindBearing
+
+"WindBearing.northwest" = "NW";
+"WindBearing.northern" = "N";
+"WindBearing.northeast" = "NE";
+"WindBearing.eastern" = "E";
+"WindBearing.southeast" = "SE";
+"WindBearing.southern" = "S";
+"WindBearing.southwest" = "SW";
+"WindBearing.western" = "W";
+
+// Cloudness
+
+"Cloudness.clear" = "Clear";
+"Cloudness.partlyCloudy" = "Partly cloudy";
+"Cloudness.mostlyCloudy" = "Mostly cloudy";
+"Cloudness.overcast" = "Overcast";
+
+// AdditionalInfo
+
+"AdditionalInfo.sunrise" = "Sun rise:";
+"AdditionalInfo.sunset" = "Sun set:";
+"AdditionalInfo.chanceOfRain" = "Chance of rain:";
+"AdditionalInfo.humidity" = "Humidity:";
+"AdditionalInfo.wind" = "Wind:";
+"AdditionalInfo.apparent" = "Feels like:";
+"AdditionalInfo.precipitation" = "Precipitation:";
+"AdditionalInfo.pressure" = "Pressure:";
+"AdditionalInfo.visibility" = "Visibility:";
+"AdditionalInfo.uvIndex" = "UV index:";
+
+// AdditionalInfo Units
+
+"AdditionalInfo.windSpeed.unit.metric" = "m/s";
+"AdditionalInfo.precipitation.unit.metric" = "sm";
+"AdditionalInfo.pressure.unit.metric" = "mm hg. art.";
+"AdditionalInfo.visibility.unit.metric" = "km";

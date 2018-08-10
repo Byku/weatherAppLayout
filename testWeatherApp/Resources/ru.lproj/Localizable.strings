@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  LayoutTraining
+*/
+
+"n.a" = "--";
+"Novosibirsk" = "Новосибирск";
+"WeatherSummary" = "Сейчас: Замечательная погода!";
+"Today" = "Сегодня";
+
+"Mon" = "Понедельник";
+"Tue" = "Вторник";
+"Wed" = "Среда";
+"Thu" = "Четверг";
+"Fri" = "Пятница";
+"Sat" = "Суббота";
+"Sun" = "Воскресенье";
+
+// WindBearing
+
+"WindBearing.northwest" = "СЗ";
+"WindBearing.northern" = "С";
+"WindBearing.northeast" = "СВ";
+"WindBearing.eastern" = "В";
+"WindBearing.southeast" = "ЮВ";
+"WindBearing.southern" = "Ю";
+"WindBearing.southwest" = "ЮЗ";
+"WindBearing.western" = "З";
+
+// Cloudness
+
+"Cloudness.clear" = "Ясно";
+"Cloudness.partlyCloudy" = "Переменная облачность";
+"Cloudness.mostlyCloudy" = "Преимущественно облачно";
+"Cloudness.overcast" = "Сплошная облачность";
+
+// AdditionalInfo
+
+"AdditionalInfo.sunrise" = "Восход солнца:";
+"AdditionalInfo.sunset" = "Закат солнца:";
+"AdditionalInfo.chanceOfRain" = "Вероятность дождя";
+"AdditionalInfo.humidity" = "Вляжность:";
+"AdditionalInfo.wind" = "Ветер:";
+"AdditionalInfo.apparent" = "Ощущается как:";
+"AdditionalInfo.precipitation" = "Осадки:";
+"AdditionalInfo.pressure" = "Давление:";
+"AdditionalInfo.visibility" = "Видимость:";
+"AdditionalInfo.uvIndex" = "УФ-индекс:";
+
+// AdditionalInfo Units
+
+"AdditionalInfo.windSpeed.unit.metric" = " м/с";
+"AdditionalInfo.precipitation.unit.metric" = "см";
+"AdditionalInfo.pressure.unit.metric" = "мм рт. ст.";
+"AdditionalInfo.visibility.unit.metric" = "км";
