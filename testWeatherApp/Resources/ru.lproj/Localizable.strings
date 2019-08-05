@@ -36,20 +36,20 @@
 
 // AdditionalInfo
 
-"AdditionalInfo.sunrise" = "Восход солнца:";
-"AdditionalInfo.sunset" = "Закат солнца:";
-"AdditionalInfo.chanceOfRain" = "Вероятность дождя";
-"AdditionalInfo.humidity" = "Вляжность:";
-"AdditionalInfo.wind" = "Ветер:";
-"AdditionalInfo.apparent" = "Ощущается как:";
-"AdditionalInfo.precipitation" = "Осадки:";
-"AdditionalInfo.pressure" = "Давление:";
-"AdditionalInfo.visibility" = "Видимость:";
-"AdditionalInfo.uvIndex" = "УФ-индекс:";
+"sunriseTime" = "Восход солнца:";
+"sunsetTime" = "Закат солнца:";
+"chanceOfRain" = "Вероятность дождя";
+"humidity" = "Вляжность:";
+"windSpeed" = "Ветер:";
+"apparentTemperature" = "Ощущается как:";
+"precipIntensity" = "Осадки:";
+"pressure" = "Давление:";
+"visibility" = "Видимость:";
+"uvIndex" = "УФ-индекс:";
 
 // AdditionalInfo Units
 
 "AdditionalInfo.windSpeed.unit.metric" = " м/с";
-"AdditionalInfo.precipitation.unit.metric" = "см";
+"AdditionalInfo.precipIntensity.unit.metric" = "см";
 "AdditionalInfo.pressure.unit.metric" = "мм рт. ст.";
 "AdditionalInfo.visibility.unit.metric" = "км";

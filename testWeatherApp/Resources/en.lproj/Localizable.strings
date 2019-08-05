@@ -36,20 +36,20 @@
 
 // AdditionalInfo
 
-"AdditionalInfo.sunrise" = "Sun rise:";
-"AdditionalInfo.sunset" = "Sun set:";
-"AdditionalInfo.chanceOfRain" = "Chance of rain:";
-"AdditionalInfo.humidity" = "Humidity:";
-"AdditionalInfo.wind" = "Wind:";
-"AdditionalInfo.apparent" = "Feels like:";
-"AdditionalInfo.precipitation" = "Precipitation:";
-"AdditionalInfo.pressure" = "Pressure:";
-"AdditionalInfo.visibility" = "Visibility:";
-"AdditionalInfo.uvIndex" = "UV index:";
+"sunriseTime" = "Sun rise:";
+"sunsetTime" = "Sun set:";
+"chanceOfRain" = "Chance of rain:";
+"humidity" = "Humidity:";
+"windSpeed" = "Wind:";
+"apparentTemperature" = "Feels like:";
+"precipIntensity" = "Precipitation:";
+"pressure" = "Pressure:";
+"visibility" = "Visibility:";
+"uvIndex" = "UV index:";
 
 // AdditionalInfo Units
 
 "AdditionalInfo.windSpeed.unit.metric" = "m/s";
-"AdditionalInfo.precipitation.unit.metric" = "sm";
+"AdditionalInfo.precipIntensity.unit.metric" = "sm";
 "AdditionalInfo.pressure.unit.metric" = "mm hg. art.";
 "AdditionalInfo.visibility.unit.metric" = "km";

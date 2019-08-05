@@ -17,6 +17,16 @@
 		DA4F91AB211D769E00E6EDA3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91A1211D769E00E6EDA3 /* Weather.swift */; };
 		DA4F91AC211D769E00E6EDA3 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91A2211D769E00E6EDA3 /* DailyWeather.swift */; };
 		DA4F91AD211D769E00E6EDA3 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91A3211D769E00E6EDA3 /* WeatherForecast.swift */; };
+		DA4F91B5211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91AF211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.swift */; };
+		DA4F91B6211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F91B0211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.xib */; };
+		DA4F91B7211DB53C00E6EDA3 /* TemperatureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F91B1211DB53C00E6EDA3 /* TemperatureTableViewCell.xib */; };
+		DA4F91B8211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91B2211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.swift */; };
+		DA4F91B9211DB53C00E6EDA3 /* TemperatureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91B3211DB53C00E6EDA3 /* TemperatureTableViewCell.swift */; };
+		DA4F91BA211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F91B4211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.xib */; };
+		DA4F91C1211DB56E00E6EDA3 /* CurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91BC211DB56E00E6EDA3 /* CurrentWeatherViewController.swift */; };
+		DA4F91C2211DB56E00E6EDA3 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91BD211DB56E00E6EDA3 /* WeatherViewController.swift */; };
+		DA4F91C3211DB56E00E6EDA3 /* CurrentWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4F91BE211DB56E00E6EDA3 /* CurrentWeatherViewController.xib */; };
+		DA4F91C9211DBA0F00E6EDA3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F91C7211DBA0F00E6EDA3 /* String+Extensions.swift */; };
 		DA7813ED211CABB200E582F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7813EC211CABB200E582F8 /* AppDelegate.swift */; };
 		DA7813EF211CABB200E582F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7813EE211CABB200E582F8 /* ViewController.swift */; };
 		DA7813F2211CABB200E582F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7813F0211CABB200E582F8 /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 		DA4F91A1211D769E00E6EDA3 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		DA4F91A2211D769E00E6EDA3 /* DailyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		DA4F91A3211D769E00E6EDA3 /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		DA4F91AF211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA4F91B0211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HourlyWeatherCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA4F91B1211DB53C00E6EDA3 /* TemperatureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureTableViewCell.xib; sourceTree = "<group>"; };
+		DA4F91B2211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureDailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		DA4F91B3211DB53C00E6EDA3 /* TemperatureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureTableViewCell.swift; sourceTree = "<group>"; };
+		DA4F91B4211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureDailyForecastTableViewCell.xib; sourceTree = "<group>"; };
+		DA4F91BC211DB56E00E6EDA3 /* CurrentWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		DA4F91BD211DB56E00E6EDA3 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DA4F91BE211DB56E00E6EDA3 /* CurrentWeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentWeatherViewController.xib; sourceTree = "<group>"; };
+		DA4F91C7211DBA0F00E6EDA3 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		DA7813E9211CABB200E582F8 /* testWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7813EC211CABB200E582F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA7813EE211CABB200E582F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +98,38 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		DA4F91AE211DB53C00E6EDA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F91AF211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.swift */,
+				DA4F91B0211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.xib */,
+				DA4F91B1211DB53C00E6EDA3 /* TemperatureTableViewCell.xib */,
+				DA4F91B2211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.swift */,
+				DA4F91B3211DB53C00E6EDA3 /* TemperatureTableViewCell.swift */,
+				DA4F91B4211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA4F91BB211DB56E00E6EDA3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7813EE211CABB200E582F8 /* ViewController.swift */,
+				DA4F91BC211DB56E00E6EDA3 /* CurrentWeatherViewController.swift */,
+				DA4F91BD211DB56E00E6EDA3 /* WeatherViewController.swift */,
+				DA4F91BE211DB56E00E6EDA3 /* CurrentWeatherViewController.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DA4F91C6211DBA0F00E6EDA3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F91C7211DBA0F00E6EDA3 /* String+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DA7813E0211CABB200E582F8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +149,12 @@
 		DA7813EB211CABB200E582F8 /* testWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				DA4F91AE211DB53C00E6EDA3 /* Views */,
+				DA4F91BB211DB56E00E6EDA3 /* View Controllers */,
 				DA4F919B211D769E00E6EDA3 /* Models */,
+				DA4F91C6211DBA0F00E6EDA3 /* Utils */,
 				DA4F9196211D769E00E6EDA3 /* Resources */,
 				DA7813EC211CABB200E582F8 /* AppDelegate.swift */,
-				DA7813EE211CABB200E582F8 /* ViewController.swift */,
 				DA7813F0211CABB200E582F8 /* Main.storyboard */,
 				DA7813F5211CABB500E582F8 /* LaunchScreen.storyboard */,
 				DA7813F8211CABB500E582F8 /* Info.plist */,
@@ -167,9 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4F91BA211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.xib in Resources */,
+				DA4F91B6211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.xib in Resources */,
 				DA7813F7211CABB500E582F8 /* LaunchScreen.storyboard in Resources */,
+				DA4F91B7211DB53C00E6EDA3 /* TemperatureTableViewCell.xib in Resources */,
 				DA4F91A4211D769E00E6EDA3 /* Localizable.strings in Resources */,
 				DA7813F2211CABB200E582F8 /* Main.storyboard in Resources */,
+				DA4F91C3211DB56E00E6EDA3 /* CurrentWeatherViewController.xib in Resources */,
 				DA4F91A5211D769E00E6EDA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,14 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4F91B9211DB53C00E6EDA3 /* TemperatureTableViewCell.swift in Sources */,
+				DA4F91C2211DB56E00E6EDA3 /* WeatherViewController.swift in Sources */,
 				DA4F91AB211D769E00E6EDA3 /* Weather.swift in Sources */,
 				DA4F91AD211D769E00E6EDA3 /* WeatherForecast.swift in Sources */,
+				DA4F91C9211DBA0F00E6EDA3 /* String+Extensions.swift in Sources */,
+				DA4F91C1211DB56E00E6EDA3 /* CurrentWeatherViewController.swift in Sources */,
 				DA7813EF211CABB200E582F8 /* ViewController.swift in Sources */,
 				DA4F91A7211D769E00E6EDA3 /* HourlyWeather.swift in Sources */,
 				DA4F91A6211D769E00E6EDA3 /* CurrentWeather.swift in Sources */,
 				DA4F91AA211D769E00E6EDA3 /* WeatherTypes.swift in Sources */,
 				DA4F91A9211D769E00E6EDA3 /* WeatherForecastGenerator.swift in Sources */,
 				DA7813ED211CABB200E582F8 /* AppDelegate.swift in Sources */,
+				DA4F91B5211DB53C00E6EDA3 /* HourlyWeatherCollectionViewCell.swift in Sources */,
+				DA4F91B8211DB53C00E6EDA3 /* TemperatureDailyForecastTableViewCell.swift in Sources */,
 				DA4F91A8211D769E00E6EDA3 /* WeatherGenerator.swift in Sources */,
 				DA4F91AC211D769E00E6EDA3 /* DailyWeather.swift in Sources */,
 			);
@@ -276,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
